@@ -26,10 +26,10 @@ sed -i 's/116736k/240128k/g' target/linux/mediatek/image/mt7981.mk
 
 #删除冲突的软件包
 #rm -rf ./package/istore
-rm -rf ./feeds/kenzo/luci-app-quickstart
-rm -rf ./feeds/kenzo/quickstart
-rm -rf ./feeds/kenzo/luci-app-store
-rm -rf ./feeds/kenzo/luci-lib-taskd
-rm -rf ./feeds/kenzo/homeproxy
-rm -rf ./feeds/kenzo/luci-app-homeproxy
-rm -rf ./feeds/small/luci-app-mosdns
+#rm -rf ./feeds/kenzo/luci-app-quickstart
+#rm -rf ./feeds/kenzo/quickstart
+#rm -rf ./feeds/kenzo/luci-app-store
+#rm -rf ./feeds/kenzo/luci-lib-taskd
+#rm -rf ./feeds/kenzo/homeproxy
+#rm -rf ./feeds/kenzo/luci-app-homeproxy
+#rm -rf ./feeds/small/luci-app-mosdns
