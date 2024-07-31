@@ -32,4 +32,4 @@ sed -i 's/116736k/243712k/g' target/linux/mediatek/image/mt7981.mk
 #rm -rf ./feeds/kenzo/luci-lib-taskd
 #rm -rf ./feeds/kenzo/homeproxy
 #rm -rf ./feeds/kenzo/luci-app-homeproxy
-#rm -rf ./feeds/small/luci-app-mosdns
+rm -rf ./feeds/small/luci-app-mosdns
